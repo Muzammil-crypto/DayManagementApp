@@ -1,15 +1,19 @@
 import React from "react";
-import Greet from "./MyComponents/Greet";
+import Counter from "./MyComponents/Counter";
+// import Greet from "./MyComponents/Greet";
+// import Message from "./MyComponents/Message";
 
 function App() {
   return (
     <div className="ui container">
-      <Greet name="Muzammil">
+      {/* <Greet name="Muzammil">
         <div>
           {" "}
           <button className="ui button red">Submit on Clieck</button>
         </div>
-      </Greet>
+      </Greet> */}
+
+      <Counter />
     </div>
   );
 }
