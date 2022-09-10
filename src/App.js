@@ -1,5 +1,7 @@
 import React from "react";
-import Counter from "./MyComponents/Counter";
+import EventBind from "./MyComponents/EventBind";
+// import Counter from "./MyComponents/Counter";
+// import FucntionClick from "./MyComponents/FucntionClick";
 // import Greet from "./MyComponents/Greet";
 // import Message from "./MyComponents/Message";
 
@@ -13,7 +15,7 @@ function App() {
         </div>
       </Greet> */}
 
-      <Counter />
+      <EventBind />
     </div>
   );
 }
