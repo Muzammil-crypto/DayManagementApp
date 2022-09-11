@@ -1,19 +1,27 @@
 import React from "react";
+import Inline from "./MyComponents/Inline";
 // import ConditionalComp from "./MyComponents/ConditionalComp";
-import List from "./MyComponents/List";
+import StyleSheet from "./MyComponents/Stylesheet";
 // import EventBind from "./MyComponents/EventBind";
 // import ParentComponent from "./MyComponents/ParentComponent";
 // import Counter from "./MyComponents/Counter";
 // import FucntionClick from "./MyComponents/FucntionClick";
 // import Greet from "./MyComponents/Greet";
 // import Message from "./MyComponents/Message";
+import "./appStyles.css";
+import "./appStyles.modules.css";
+import Form from "./MyComponents/Form";
 
 function App() {
   // function greetChild() {
   //   alert(`Hello Child`);
   // }
   return (
-    <div className="ui container">
+    <div>
+      {/* <h1 className="Error">Error</h1>
+
+      <h1 className="Success">Success</h1> */}
+
       {/* <Greet name="Muzammil">
         <div>
           {" "}
@@ -23,7 +31,8 @@ function App() {
 
       {/* <EventBind /> */}
       {/* <ParentComponent childGreetHandler={greetChild} /> */}
-      <List />
+      {/* <StyleSheet primery={true} /> */}
+      <Form />
     </div>
   );
 }
