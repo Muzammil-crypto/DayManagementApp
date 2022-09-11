@@ -1,16 +1,17 @@
 import React from "react";
-import ConditionalComp from "./MyComponents/ConditionalComp";
+// import ConditionalComp from "./MyComponents/ConditionalComp";
+import List from "./MyComponents/List";
 // import EventBind from "./MyComponents/EventBind";
-import ParentComponent from "./MyComponents/ParentComponent";
+// import ParentComponent from "./MyComponents/ParentComponent";
 // import Counter from "./MyComponents/Counter";
 // import FucntionClick from "./MyComponents/FucntionClick";
 // import Greet from "./MyComponents/Greet";
 // import Message from "./MyComponents/Message";
 
 function App() {
-  function greetChild() {
-    alert(`Hello Child`);
-  }
+  // function greetChild() {
+  //   alert(`Hello Child`);
+  // }
   return (
     <div className="ui container">
       {/* <Greet name="Muzammil">
@@ -22,7 +23,7 @@ function App() {
 
       {/* <EventBind /> */}
       {/* <ParentComponent childGreetHandler={greetChild} /> */}
-      <ConditionalComp />
+      <List />
     </div>
   );
 }
