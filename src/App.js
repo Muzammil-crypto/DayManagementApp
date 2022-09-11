@@ -1,5 +1,6 @@
 import React from "react";
 import EventBind from "./MyComponents/EventBind";
+import ParentComponent from "./MyComponents/ParentComponent";
 // import Counter from "./MyComponents/Counter";
 // import FucntionClick from "./MyComponents/FucntionClick";
 // import Greet from "./MyComponents/Greet";
@@ -15,7 +16,8 @@ function App() {
         </div>
       </Greet> */}
 
-      <EventBind />
+      {/* <EventBind /> */}
+      <ParentComponent />
     </div>
   );
 }
