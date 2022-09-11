@@ -1,4 +1,5 @@
 import React from "react";
+import ConditionalComp from "./MyComponents/ConditionalComp";
 // import EventBind from "./MyComponents/EventBind";
 import ParentComponent from "./MyComponents/ParentComponent";
 // import Counter from "./MyComponents/Counter";
@@ -20,7 +21,8 @@ function App() {
       </Greet> */}
 
       {/* <EventBind /> */}
-      <ParentComponent childGreetHandler={greetChild} />
+      {/* <ParentComponent childGreetHandler={greetChild} /> */}
+      <ConditionalComp />
     </div>
   );
 }
