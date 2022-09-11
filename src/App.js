@@ -1,5 +1,5 @@
 import React from "react";
-import EventBind from "./MyComponents/EventBind";
+// import EventBind from "./MyComponents/EventBind";
 import ParentComponent from "./MyComponents/ParentComponent";
 // import Counter from "./MyComponents/Counter";
 // import FucntionClick from "./MyComponents/FucntionClick";
@@ -7,6 +7,9 @@ import ParentComponent from "./MyComponents/ParentComponent";
 // import Message from "./MyComponents/Message";
 
 function App() {
+  function greetChild() {
+    alert(`Hello Child`);
+  }
   return (
     <div className="ui container">
       {/* <Greet name="Muzammil">
@@ -17,7 +20,7 @@ function App() {
       </Greet> */}
 
       {/* <EventBind /> */}
-      <ParentComponent />
+      <ParentComponent childGreetHandler={greetChild} />
     </div>
   );
 }
