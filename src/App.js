@@ -1,7 +1,7 @@
 import React from "react";
-import Inline from "./MyComponents/Inline";
+// import Inline from "./MyComponents/Inline";
 // import ConditionalComp from "./MyComponents/ConditionalComp";
-import StyleSheet from "./MyComponents/Stylesheet";
+// import StyleSheet from "./MyComponents/Stylesheet";
 // import EventBind from "./MyComponents/EventBind";
 // import ParentComponent from "./MyComponents/ParentComponent";
 // import Counter from "./MyComponents/Counter";
@@ -10,8 +10,10 @@ import StyleSheet from "./MyComponents/Stylesheet";
 // import Message from "./MyComponents/Message";
 import "./appStyles.css";
 import "./appStyles.modules.css";
-import Form from "./MyComponents/Form";
+import FragmentDemo from "./MyComponents/FragmentDemo";
+// import Form from "./MyComponents/Form";
 import LifecycleA from "./MyComponents/LifecycleA";
+import Table from "./MyComponents/Table";
 
 function App() {
   // function greetChild() {
@@ -34,7 +36,9 @@ function App() {
       {/* <ParentComponent childGreetHandler={greetChild} /> */}
       {/* <StyleSheet primery={true} /> */}
       {/* <Form /> */}
-      <LifecycleA />
+      {/* <LifecycleA /> */}
+      {/* <FragmentDemo /> */}
+      <Table />
     </div>
   );
 }
