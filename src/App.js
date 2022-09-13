@@ -11,6 +11,7 @@ import StyleSheet from "./MyComponents/Stylesheet";
 import "./appStyles.css";
 import "./appStyles.modules.css";
 import Form from "./MyComponents/Form";
+import LifecycleA from "./MyComponents/LifecycleA";
 
 function App() {
   // function greetChild() {
@@ -32,7 +33,8 @@ function App() {
       {/* <EventBind /> */}
       {/* <ParentComponent childGreetHandler={greetChild} /> */}
       {/* <StyleSheet primery={true} /> */}
-      <Form />
+      {/* <Form /> */}
+      <LifecycleA />
     </div>
   );
 }
