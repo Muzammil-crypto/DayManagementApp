@@ -1,4 +1,4 @@
-import React from "react";
+import React, { PureComponent } from "react";
 // import Inline from "./MyComponents/Inline";
 // import ConditionalComp from "./MyComponents/ConditionalComp";
 // import StyleSheet from "./MyComponents/Stylesheet";
@@ -38,7 +38,8 @@ function App() {
       {/* <Form /> */}
       {/* <LifecycleA /> */}
       {/* <FragmentDemo /> */}
-      <Table />
+      {/* <Table /> */}
+      <PureComponent />
     </div>
   );
 }
