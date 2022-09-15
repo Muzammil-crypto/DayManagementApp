@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React from "react";
 // import Inline from "./MyComponents/Inline";
 // import ConditionalComp from "./MyComponents/ConditionalComp";
 // import StyleSheet from "./MyComponents/Stylesheet";
@@ -10,10 +10,13 @@ import React, { PureComponent } from "react";
 // import Message from "./MyComponents/Message";
 import "./appStyles.css";
 import "./appStyles.modules.css";
-import FragmentDemo from "./MyComponents/FragmentDemo";
+import FRParentInput from "./FRParentInput";
+// import FocusInput from "./MyComponents/FocusInput";
+// import FragmentDemo from "./MyComponents/FragmentDemo";
 // import Form from "./MyComponents/Form";
-import LifecycleA from "./MyComponents/LifecycleA";
-import Table from "./MyComponents/Table";
+// import LifecycleA from "./MyComponents/LifecycleA";
+// import RefsDemo from "./MyComponents/RefsDemo";
+// import Table from "./MyComponents/Table";
 
 function App() {
   // function greetChild() {
@@ -39,7 +42,10 @@ function App() {
       {/* <LifecycleA /> */}
       {/* <FragmentDemo /> */}
       {/* <Table /> */}
-      <PureComponent />
+      {/* <PureComponent /> */}
+      {/* <RefsDemo /> */}
+      {/* <FocusInput /> */}
+      <FRParentInput />
     </div>
   );
 }
